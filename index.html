@@ -17,6 +17,30 @@
     <!-- Title -->
     <title>Maria's First Website Using JS</title>
   </head>
-  <!-- More code for Google's MDL -->
-  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <body>
+    <!-- More code for Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <!-- JS code for alert to show when button clicked -->
+    <script>
+      function ButtonClicked {
+        alert("Hello, World!")
+      }
+    </script>
+    <!-- Title at top of page -->
+    <div class="mdl-layout mdl-js-layout">
+      <header class="mdl-layout__header mdl-layout__header--scroll">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">My First Webpage Made Using Javascript</span>
+        </div>
+      </header>
+      <!-- Navigation at the left side of the page -->
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Page Navigation</span>
+          <nav class="mdl-navigation">
+            <a class="mdl-navigation__link" href="./index.html">Home Page</a>
+            <a class="mdl-navigation__link" href="./index2.html">Second Page</a>
+          </nav>
+      </div>
+    </div>
+  </body>  
 </html>
